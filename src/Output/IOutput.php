@@ -4,6 +4,6 @@ namespace CzcScraper\Output;
 
 interface IOutput
 {
-    public function setData(array $data);
-	public function output();
+    public function setData(array $data): void;
+	public function output(): void;
 }

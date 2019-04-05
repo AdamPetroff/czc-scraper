@@ -20,7 +20,7 @@ class Dispatcher
         $this->inputLoader = $inputLoader;
     }
 
-	public function run()
+	public function run(): void
 	{
 	    $inputs = $this->inputLoader->load();
 	    $productsData = [];
